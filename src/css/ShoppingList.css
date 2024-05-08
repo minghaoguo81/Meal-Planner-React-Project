@@ -1,0 +1,49 @@
+.ShoppingList {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #e9ecef;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ShoppingList h2 {
+    color: #ffc107;
+    margin-bottom: 20px;
+}
+
+.ShoppingList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ShoppingList li {
+    margin: 8px 0;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    color: #666;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.ShoppingList li:last-child {
+    border-bottom: none;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .shopping-list-container {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+
+
