@@ -34,5 +34,5 @@ The Meal Planner is a full-stack web application designed to help users manage t
 
 ## Security
 - This project includes an authentication system to check valid usernames that can log in but no authentication to check password occurs.
-- Checks are in place to ensure that operations such as adding, updating, or deleting recipes are authorized.
+- Checks are in place to make sure that operations such as adding, updating, or deleting recipes are authorized.
 
